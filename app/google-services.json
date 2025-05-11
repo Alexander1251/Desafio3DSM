@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "835009283723",
+    "project_id": "aprendeapp-e88d5",
+    "storage_bucket": "aprendeapp-e88d5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835009283723:android:b7911f7dbc18ca0004368e",
+        "android_client_info": {
+          "package_name": "com.example.aprendeapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCC-H4v6o6c9UXcRu9jgxnvcKU3gekofOY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/etTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_title"
+            android:inputType="text"
+            android:autofillHints="name"
+            android:importantForAutofill="yes"
+            android:minHeight="48dp"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/etDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_description"
+            android:inputType="text"
+            android:autofillHints="postalAddress"
+            android:importantForAutofill="yes"
+            android:minHeight="48dp"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/etTipo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_type"
+            android:inputType="text"
+            android:autofillHints="organization"
+            android:importantForAutofill="yes"
+            android:minHeight="48dp"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/etEnlace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_link"
+            android:inputType="textUri"
+            android:autofillHints="url"
+            android:importantForAutofill="yes"
+            android:minHeight="48dp"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/etImagen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_image_url"
+            android:inputType="textUri"
+            android:autofillHints="url"
+            android:importantForAutofill="yes"
+            android:minHeight="48dp"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btnActualizar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_update"
+            android:minHeight="48dp"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btnEliminar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_delete"
+            android:minHeight="48dp"/>
+
+    </LinearLayout>
+</ScrollView>

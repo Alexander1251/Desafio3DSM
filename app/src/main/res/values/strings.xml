@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">AprendeApp</string>
+
+    <!-- Welcome -->
+    <string name="welcome_message">¡Bienvenido a AprendeApp!</string>
+    <string name="btn_welcome_enter">Entrar</string>
+
+    <!-- Login -->
+    <string name="login_title">Iniciar sesión</string>
+    <string name="hint_email">Correo electrónico</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="btn_login">Acceder</string>
+    <string name="link_register">¿No tienes cuenta? Regístrate</string>
+    <string name="error_empty_fields">Por favor llena todos los campos.</string>
+    <string name="error_login_failed">Error al iniciar sesión.</string>
+    <string name="success_login">¡Inicio de sesión exitoso!</string>
+    <string name="hint_search_id">ID del recurso</string>
+    <string name="btn_search">Buscar</string>
+    <string name="hint_title">Título</string>
+    <string name="hint_description">Descripción</string>
+    <string name="hint_type">Tipo</string>
+    <string name="hint_link">Enlace</string>
+    <string name="hint_image_url">URL de la imagen</string>
+    <string name="btn_save">Guardar</string>
+    <string name="btn_update">Actualizar</string>
+    <string name="btn_delete">Eliminar</string>
+    <string name="title_listar_recursos">Listar Recursos</string>
+    <string name="title_buscar_recurso">Buscar Recurso</string>
+    <string name="title_agregar_recurso">Agregar Recurso</string>
+    <string name="title_editar_recurso">Editar Recurso</string>
+
+
+
+
+    <!-- Registro -->
+    <string name="register_title">Crear cuenta</string>
+    <string name="hint_email_reg">Correo electrónico</string>
+    <string name="hint_password_reg">Contraseña</string>
+    <string name="hint_password_confirm">Confirmar contraseña</string>
+    <string name="btn_register">Registrar</string>
+    <string name="error_password_mismatch">Las contraseñas no coinciden.</string>
+    <string name="success_register">Cuenta creada correctamente.</string>
+    <string name="error_register_failed">Error al crear la cuenta.</string>
+
+    <!-- Menú -->
+    <string name="menu_title">Menú principal</string>
+</resources>
