@@ -19,5 +19,5 @@ Aplicación Android para gestionar recursos educativos con autenticación Fireba
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/AprendeApp.git
+   git clone https://github.com/Alexander1251/Desafio3DSM.git
    cd AprendeApp
